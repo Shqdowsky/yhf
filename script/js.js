@@ -47,7 +47,9 @@ function changeLanguage() {
    if (!allang.includes(hash)) {
       location.href = window.location.pathname + "#ru";
    }
-   select.value = hash
+   if (hash != "") {
+      select.value = hash
+   }
    if (hash == "ua") {
       nav1.innerHTML = "Презентація"
       nav2.innerHTML = "Дорожня карта"

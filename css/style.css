@@ -192,15 +192,15 @@ body {
    border-radius: 5px;
    padding: 12px 14px;
    background-color: none;
+   box-shadow: 0px 0px 10px solid rgb(255, 254, 254);
    position: absolute;
    z-index: 2;
-   top:20%;
-   right: 3%;
-   position: fixed;
+   top:19%;
+   right: 1%;
    transition: all 0.4s ease 0s;
 }
 .select:hover{
-   box-shadow: 0px 0px 8px rgb(245, 250, 252);
+   box-shadow: 0px 0px 8px rgb(215, 222, 224);
 }
 .select:focus{
    outline: none;
